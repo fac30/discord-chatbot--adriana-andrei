@@ -52,7 +52,9 @@ This project uses the openai api to generate user responses so you are required 
 
 **2.** Once you've created an api key, return to the discord dev portal to find your client (application) id, and discord token. Your server (guild) id can be found by right clicking on your server name above the chat channels in your server. Paste your ids and token into your .env file before you run the bot. A template in the root directory will show you an example how to name your keys.
 
-**3.** You can now run `node deploy-commands.js` to load the bot's commands and finally run `node index.js` to start the bot. If everything is running correctly you will see a console message `Ready! Logged in as "bot name"`.
+**3** Make sure you have Node version 16.11 or higher, otherwise you will run into a compatibility error. To check your version, you can enter the followind command into your CLI: `node -v`   
+
+**4.** You can now run `node deploy-commands.js` to load the bot's commands and finally run `node index.js` to start the bot. If everything is running correctly you will see a console message `Ready! Logged in as "bot name"`.
 
 ## Environmental variables
 
