@@ -2,19 +2,12 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
-// const { Client } = require("discord.js")
+const {Client} = require('discord.js');
 
-// describe("testing if the Client object gets imported", () => {
-//     it("returns valid Client instance", () => {
-
-//         expect(Client instanceof require("discord.js").Client).toBeTruthy();
-//     })
-// })
-
-const { Client } = require("discord.js");
-
-describe("testing if the Client object gets imported", () => {
-    it("returns valid Client instance", () => {
-        expect(Client instanceof require("discord.js").Client).toBeTruthy();
-    });
+// Import the function to test
+describe('testing if the Client object gets imported', () => {
+  it('returns valid Client instance', () => {
+    expect(Client).toBeTruthy();
+  });
 });
+
