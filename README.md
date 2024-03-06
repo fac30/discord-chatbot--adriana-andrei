@@ -10,16 +10,16 @@ This project is an AI infused chat bot developed using Discord.js and OpenAI API
 
 ## Setup
 
-**1.**To setup this project locally, you will need to fork the repository and clone it to your local machine.
+**1.** To setup this project locally, you will need to fork the repository and clone it to your local machine.
 
-**2.**Next, you'll have to create an new account on the [discord dev portal](https://discord.com/developers/). You must create your bot in this portal, which you will later associate with the code from this project by replacing the GUILD_ID and CLIENT_ID variables with your own.
+**2.** Next, you'll have to create an new account on the [discord dev portal](https://discord.com/developers/). You must create your bot in this portal, which you will later associate with the code from this project by replacing the GUILD_ID and CLIENT_ID variables with your own.
 ![image of discord dev portal](/images/readme/dev_portal.png)
 
 To create a bot, simply click on the `Applications` tab and then `New Application`. Add a name for your bot and click `create`. You should now see the General Information page that allows you to edit the application's name, add a description and change its avatar.
 
-**3.**Navigate to the Bot tab and you will see settings for your bot. Under the username you will see a button `Reset Token`. This will generate a token for your bot that is essentially its password to login to discord. It should always be kept private.
+**3.** Navigate to the Bot tab and you will see settings for your bot. Under the username you will see a button `Reset Token`. This will generate a token for your bot that is essentially its password to login to discord. It should always be kept private.
 
-**4.**Now that you have setup your bot application, you will need to invite it to your server. To do that, navigate to the `URL Generator` in the `OAuth2` tab.
+**4.** Now that you have setup your bot application, you will need to invite it to your server. To do that, navigate to the `URL Generator` in the `OAuth2` tab.
 
 For scopes, tick:
 
