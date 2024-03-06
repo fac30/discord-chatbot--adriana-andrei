@@ -13,7 +13,6 @@ This project is an AI infused chat bot developed using Discord.js and OpenAI API
 **1.** To setup this project locally, you will need to fork the repository and clone it to your local machine.
 
 **2.** Next, you'll have to create an new account on the [discord dev portal](https://discord.com/developers/). You must create your bot in this portal, which you will later associate with the code from this project by replacing the GUILD_ID and CLIENT_ID variables with your own.
-![image of discord dev portal](/images/readme/dev_portal.png)
 
 To create a bot, simply click on the `Applications` tab and then `New Application`. Add a name for your bot and click `create`. You should now see the General Information page that allows you to edit the application's name, add a description and change its avatar.
 
